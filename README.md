@@ -11,18 +11,22 @@ However - at the click of single button - this packaged python tool display your
 $ ifconfig | grep 'inet '| grep -v 127.0.0.1 | awk 'NR==1{print $2}'
 ```
 ## Breakdown of Command:
-_ifconfig_ - displays information about network interfaces on your system  
-_grep 'inet '_ - filters for lines containing 'inet '  
-_grep -v 127.0.0.1_ - excludes line containing '127.0.0.1' (loopback address for machine's internal use)  
-_awk 'NR==1{print $2}'_ - prints the second field from the first line of its input
+#### _ifconfig_  
+displays information about network interfaces on your system  
+#### _grep 'inet '_  
+filters for lines containing 'inet '  
+#### _grep -v 127.0.0.1_  
+excludes line containing '127.0.0.1' (loopback address for machine's internal use)  
+#### _awk 'NR==1{print $2}'_  
+prints the second field from the first line of its input
 
-### Key functions:
+## Key functions:
 #### _grab_IP_  
 run the command in the background and display the "Public IP" address  
 #### _reset_label_
 once IP is displayed, can be hidden again, and app resets
 
-### Building blocks:
+## Building blocks:
 #### _tkinter_
 Module is responsible for creating the user-friendly graphical interface, giving visual appeal and interactability to the tool.  
 #### _subprocess_
