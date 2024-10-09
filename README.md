@@ -1,6 +1,6 @@
 # grepIP
 ![Screenshot 2024-06-26 at 4.11.21 AM](https://github.com/hoonc95/Data_Analytics_Portfolio/assets/168390796/1d077ee3-1eb6-439c-8a12-9eedb585b582")
-### (formerly called "showmyip")  
+#### (formerly called "showmyip")  
 A swift and simple Python tool used to instantly display your machine's IP address. Ideal for quick network checks and troubleshooting.
 There are at least 3 main ways to display a machine's IP address - Third-party websites/software | Command-Line Interface | "Settings > WiFi > More Info".  
 - [Third-party sites/software] requires connected to a server to ping the machine, where the company will hold that data  
