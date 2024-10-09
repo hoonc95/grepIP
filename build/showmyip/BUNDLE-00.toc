@@ -1,4 +1,0 @@
-([('showmyip',
-   '/Volumes/TOSHIBA MK6476GSX Media/dev/PyCharm Projects/show my '
-   'ip/dist/showmyip',
-   'EXECUTABLE')],)
